@@ -30,8 +30,8 @@ Design a cloud data platform to process and deliver insights based on the above.
 
 # In GCP (Google cloud platform)
 
-For POS and online transactions a Pub/Sub->Function (to read the subscription and save it in BT)--> Big Table for scalable and strong write transactions
-Logistics and operations data can be saved in different sources and databases and have dataflow to ingest data to delta lake
-different sources of data like files of different format can be storad in data buckets and be processed in databricks
-databricks run the more specific ML worloads. Some can be run in Big Query
-Big Query is the final stage with clean data for analytics taht can be visualized using Data Studio ** there's an pdf in the repo with a high level diagram
+- For POS and online transactions a Pub/Sub->Function (to read the subscription and save it in BT)--> Big Table for scalable and strong write transactions
+- Logistics and operations data can be saved in different sources and databases and have dataflow to ingest data to delta lake
+- different sources of data like files of different format can be storad in data buckets and be processed in databricks
+- databricks run the more specific ML worloads. Some can be run in Big Query
+- Big Query is the final stage with clean data for analytics taht can be visualized using Data Studio ** there's an pdf in the repo with a high level diagram
